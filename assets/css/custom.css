@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    padding: 0px;
+    font-family: 'Montserrat';
+    /* background-image:linear-gradient(to right, #f4efef, #fff,  #fff); */
+    background: rgb(251, 239, 239);
+    background: linear-gradient(90deg, rgba(251, 239, 239, 1) 35%, rgba(255, 255, 255, 1) 50%);
+}
+
+.pageTitle h3 {
+    color: #f92122;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.suFutureText h4 {
+    color: #262250;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+p {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#hero {
+    margin-top: 100px;
+}
+
+.howItWorks {
+    padding: 20px;
+    border: 1px solid #000000;
+    margin-top: 45px;
+}
+
+.howItWorks h4 {
+    margin: 5px 0;
+}
+
+.contentDP {
+    max-height: 460px;
+    position: relative;
+}
+
+img.assuredIcn {
+    position: absolute;
+    top: 20%;
+    left: -60px;
+    width: 190px;
+}
+
+.wText i {
+    color: #e03a3c;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.wText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4.titleSub {
+    color: #262250;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.clients-slider {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 45px 30px;
+    box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 5%);
+}
+
+.rankLogo {
+    padding: 16px 25px;
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid #cecece; */
+}
+
+.bg-red {
+    background: #f83552;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-light-grey {
+    background: #f6f6f6;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+ul.learList li {
+    display: inline-flex;
+    flex-basis: 50%;
+    width: 40%;
+    text-align: left;
+    line-height: 2.5;
+    font-size: 18px;
+    color: #000000;
+    align-items: center;
+    justify-content: start;
+}
+
+.pageTitle p {
+    margin: 16px 0;
+}
+
+@media (min-width: 768px) {
+    .learningContent {
+        background-image: url(../../assets/img/learningGirl.png);
+        background-repeat: no-repeat;
+        background-size: 47%;
+        background-position: right;
+        background-color: #f6f1f1;
+        padding: 30px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .learningContent {
+        background-repeat: no-repeat;
+        background-size: 47%;
+        background-position: right;
+        background-color: #f6f1f1;
+        padding: 30px 30px;
+    }
+}
+
+section#thLearning {
+    padding: 0;
+    margin: 30px 0;
+    background: linear-gradient(to right, #f6f1f1 50%, #fff 10%);
+}
+
+h3.postTitle a {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+.countName {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.countName span {
+    font-size: 37px;
+    color: red;
+}
+
+.UnivName {
+    background: #fb1440;
+    padding: 9px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.nottextform {
+    text-transform: inherit !important;
+}
+
+/* section.careerSection {
+    background-image: url(../../assets/img/girlBg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #f5efef;
+} */
+
+section.enrollPay {
+    background: #fd2334;
+    text-align: center;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.SuccessText h3 {
+    font-size: 46px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a.get-started-btn.btnWhite {
+    background: #fff;
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 9px;
+    padding: 7px 9px;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+/* Footer Enroll Button */
+
+a.get-started-btn.btnWhite1 {
+    background: #fff;
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 26px;
+    padding: 15px 26px;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+/***** think text *******/
+
+.suFutureText {
+    padding-left: 3em;
+}
+
+#accredations {
+    padding-top: 40px;
+}
+
+.degPrograms {
+    background-image: linear-gradient(to right, #f5efef, #f4efef);
+}
+
+/* .pageTitle {
+    padding-left: 2em;
+} */
+
+.contentType {
+    padding-right: 2em;
+}
+
+.contentType p span {
+    font-weight: 700;
+}
+
+.countries-pd {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 3em;
+}
+
+.univLogo.text-center.py-5 {
+    background: #fff;
+}
+
+.careerSection .row {
+    background-image: url(../../assets/img/girlBg.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-color: #f5efef;
+    padding-top: 4em;
+}
+
+.suFutureText p {
+    font-size: 19px;
+}
+
+.card-uni {
+    height: 100%;
+}
+
+.rankLogo img {
+    width: 170px;
+}
+
+.redCard h5 {
+    font-weight: 700;
+}
+
+a.pl-2.timeAgge img {
+    width: 12px;
+    margin-right: 6px;
+}
+
+a.pl-2.timeAgge small {
+    color: #262250;
+}
+
+a.pl-2.timeAgge {
+    display: block;
+    margin: 9px 0;
+}
+
+img.smallIcon {
+    max-width: 30px;
+    margin-right: 8px;
+}
+
+.wText {
+    font-size: 17px;
+    color: #262250;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ul.learList li {
+    align-items: center;
+    justify-content: start;
+}
+
+ul.learList {
+    padding: 0;
+}
+
+section#tabs {
+    padding: 30px 0 40px 0;
+}
+
+.countries-pd ul.learList li {
+    width: 48%;
+}
+
+ul.learList li {
+    margin: 9px 0;
+}
+
+ul.carText li {
+    display: block;
+    margin-bottom: 14px;
+    color: #262250;
+}
+
+@media screen and (max-width:767px) {
+    #hero h1 {
+        justify-content: center;
+    }
+    .suFutureText {
+        padding-left: 0;
+        padding: 20px;
+    }
+    section {
+        padding: 40px 0;
+    }
+    .clients .swiper-slide img {
+        max-width: 100% !important;
+    }
+    .clients-slider {
+        padding: 15px 30px;
+    }
+    .rankLogo img {
+        width: 120px;
+    }
+    ul.learList li {
+        display: flex;
+        flex-basis: 100%;
+        width: 100%;
+    }
+    @media (min-width: 768px) {
+        .learningContent {
+            background-size: 287%;
+            padding: 30px 30px;
+            background-position: 45% 30% !important;
+        }
+    }
+    @media (max-width: 768px) {
+        .learningContent {
+            background-size: 287%;
+            padding: 30px 30px;
+            background-position: 45% 30% !important;
+        }
+    }
+    .contentType {
+        margin-top: 20px;
+    }
+    .countries-pd ul.learList li {
+        width: 100%;
+        align-items: flex-start;
+        line-height: 1.8;
+    }
+    ul.learList li img {
+        margin-top: 10px;
+    }
+    .careerSection .row {
+        background-image: none;
+    }
+    .SuccessText h3 {
+        font-size: 33px;
+        margin-bottom: 20px !important;
+    }
+    .wText {
+        display: flex;
+        justify-content: left !important;
+    }
+    .pageTitle h3 {
+        font-size: 28px !important;
+    }
+    #hero {
+        width: 100%;
+        height: 100% !important;
+    }
+    .heroImg {
+        max-width: 70%;
+    }
+    .tabs .nav-link h4 {
+        font-size: 14px;
+    }
+}
+
+#hero h1 span.inLine {
+    font-size: 50%;
+    vertical-align: top;
+    position: relative;
+    text-transform: lowercase;
+    margin-left: 0px !important;
+}
+
+img.heroImg {
+    max-width: 90%;
+}
+
+.mt-100 {
+    margin-top: 80px;
+}
+
+.text-dark {
+    color: #262250 !important;
+}
+
+#hero h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: self-start;
+}
+
+#hero h1 span {
+    margin-left: 8px;
+}
