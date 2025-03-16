@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bot-container img {
+            max-width: 100px !important;
+            max-height: 65px !important;
+        }
+
+        .mcq_new_slider.vertical_options {
+            width: 80% !important;
+            color: blue !important;
+        }
+    </style>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '281612094426221');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=281612094426221&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11221732374"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11221732374');
+    </script>
+
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TDTS9V2');
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet"  >
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <!-- =======================================================
+  * Template Name: Presento - v3.9.0
+  * Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<style>
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .active1,
+    .collapsible:hover {
+        background-color: #555;
+    }
+
+    .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active1:after {
+        content: "\2212";
+    }
+
+    .content1 {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+        margin-top: 5px;
+    }
+
+    .iti {
+        width: 100% !important;
+    }
+
+    .iti-mobile .iti__country-list {
+        max-height: 50% !important;
+        width: 40% !important;
+    }
+
+    .callus {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: rgb(240, 47, 47);
+        font-weight: 500;
+        text-align: center;
+        font-weight: bold;
+        border: 1px solid rgb(206, 206, 206);
+        /* display: none;*/
+    }
+
+    .alert1 {
+        color: red;
+        margin-top: 4px;
+        width: 100%;
+        background-color: white;
+        margin-left: 450px;
+    }
+
+    @media screen and (max-width:676px) {
+        .callus {
+            display: block;
+        }
+        .alert1 {
+            margin-left: 0px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .mobnav {
+            margin: 10px 10px !important;
+            color: white;
+            align-items: auto;
+        }
+        .mobtext {
+            margin: auto;
+        }
+    }
+
+    .npfTitle-98994d50dad1bda5a240a9a9b9bf73d3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .npfTitle-98994d50dad1bda5a240a9a9b9bf73d3 {
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+    }
+
+    #popup-98994d50dad1bda5a240a9a9b9bf73d3 {
+        z-index: 999
+    }
+
+    /*Surbo Bot*/
+
+    #bot-container.left .preview_icon {
+        left: 0px;
+    }
+
+    .preview_icon {
+        bottom: 0px
+    }
+</style>
+<style>
+    .contact-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 780px;
+        /* Maximum width */
+        height: 50px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .pl-0 {
+        padding-left: 0;
+    }
+
+    .pr-0 {
+        padding-right: 0;
+    }
+
+    .profile-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile-image img {
+        width: 40px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .contact-text {
+        font-size: 12px;
+        color: #333;
+        flex: 1;
+        margin-left: 10px;
+    }
+
+    .contact-text a {
+        text-decoration: none;
+        color: #e63946;
+        font-weight: bold;
+    }
+
+    .apply-now-mobile {
+        display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 1130px) {
+        .contact-section {
+            width: 68%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .apply-now-desktop {
+            display: none;
+        }
+        .apply-now-mobile {
+            display: block;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .contact-section {
+            flex-direction: column;
+            /* Stack content vertically */
+            align-items: center;
+        }
+        .hid {
+            display: none;
+            /* Hide advisor text */
+        }
+        .contact-text {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .contact-text {
+            display: none;
+            /* Completely hide contact text */
+        }
+    }
+
+    .blinking-message {
+        text-align: center;
+        /* Center align the message */
+        font-size: 5px;
+        /* Adjust font size */
+        font-weight: bold;
+        color: red;
+        animation: blink 3s infinite;
+        /* Blinking animation */
+    }
+
+    /* Blinking animation */
+
+    @keyframes blink {
+        0%,
+        100% {
+            opacity: 1;
+            /* Fully visible */
+        }
+        50% {
+            opacity: 0;
+            /* Invisible */
+        }
+    }
+    .get-started-btn {
+            background: linear-gradient(to right, #fd1d1d, #fd1d1d, #ff50fb) !important;
+        }
+</style>
+
+<body>
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center" style="margin-top:0px;">
+            <h1 class="logo me-auto"><a href="./college.html" target="_blank"><img src="assets/img/logo.png" /></a></h1>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+
+                    <li><a class="nav-link scrollto" href="./college.html">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="./about.html">About us</a></li>
+                    <li><a class="nav-link scrollto" href="./placementDrive.html">Placement drives</a></li>
+                    <li><a class="nav-link scrollto" href="./placementService.html">Placement Services</a></li>
+                    <li><a class="nav-link scrollto" href="#">Blogs</a></li>
+                    <a style="padding:10px !important; color: white" href="./contactUs.html" class="get-started-btn scrollto mobnav"><span class="mobtext">Contact</span></a>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+    
+    <style>
+        .mainhead {
+            font-weight: bold;
+            font-size: 24px;
+            color: white;
+        }
+
+        .hback {
+            padding: 0.25rem 1rem;
+            background: linear-gradient(to right, #fd1d1d, #ff50fb);
+            box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .wText1 {
+                font-size: 12px !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .rank_txt {
+                font-size: 15px !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            ul.learList li {
+                font-size: 12px !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            h2 {
+                font-size: 28px !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            /* Tablet-specific CSS styles here */
+            .mainhead {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width:768px) {
+            .mainhead {
+                font-size: 18px;
+            }
+            h2 {
+                font-size: 1.7rem !important;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .hcolor {
+                /* top: 40%;
+            left: 40%; */
+                font-weight: bolder;
+                font-size: 3.8rem;
+                line-height: 0.8;
+                /* font-family: Arial, Helvetica, sans-serif; */
+                background: linear-gradient(to right, #fd1d1d, #ff50fb);
+                background-size: 100% 100%;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                font-family: "Gotham-Black";
+            }
+            .FREE {
+                font-weight: bolder;
+                font-size: 2.8rem;
+                line-height: 0.8;
+                /* font-family: Arial, Helvetica, sans-serif; */
+                background: linear-gradient(to right, #fd1d1d, #ff50fb);
+                background-size: 100% 100%;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                font-family: "Gotham-Black";
+            }
+        }
+
+        /* @media (max-width: 768px) { 
+    .FREE{
+      font-size:12px;
+    }
+  } */
+
+        /* @media (max-width: 768px) { */
+
+        .hcolor {
+            /* top: 40%;
+            left: 40%; */
+            font-weight: bolder;
+            font-size: 50px;
+            line-height: 0.8;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            background: linear-gradient(to right, #fd1d1d, #ff50fb);
+            background-size: 100% 100%;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-family: "Gotham-Black";
+        }
+
+        /* } */
+
+        .FREE {
+            text-align: center;
+            margin-bottom: 0;
+            font-weight: bolder;
+            font-size: 50px;
+            line-height: 0.8;
+            background: linear-gradient(to right, #fd1d1d, #ff50fb);
+            background-size: 100% 100%;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-family: Gotham-Black
+        }
+
+        @media (min-width: 768px) {
+            .hdfont {
+                font-weight: bold;
+                font-size: 36px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hdfont {
+                font-weight: bold;
+                font-size: 22px;
+            }
+        }
+
+        .odfont {
+            font-family: "Gotham-Black";
+        }
+
+        .odfont_bd {
+            font-family: "Gotham-Bold";
+        }
+
+        .odfont_lt {
+            font-family: "Gotham-Light";
+        }
+
+        .odfont_md {
+            font-family: "Gotham-Medium";
+        }
+
+        @media (min-width: 768px) {
+            .odDiv {
+                margin-top: 0%;
+                padding: 1.5rem 0;
+            }
+            .fromdiv {
+                font-size: 22px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .odDiv {
+                padding: 1.5rem 0;
+            }
+            .fromdiv {
+                font-size: 16px;
+            }
+        }
+
+        body {
+            /* background-image: none; */
+            color: black;
+            background: rgb(251, 239, 239);
+            background: linear-gradient(90deg, rgba(251, 239, 239, 1) 0%, rgba(255, 255, 255, 1) 50%);
+        }
+
+        section#thLearning {
+            background-image: none;
+        }
+
+        .learningContent {
+            background-color: white;
+        }
+
+        .tabs .nav-link {
+            background: linear-gradient(to right, #fd1d1d, #ff50fb);
+            border: 1px solid #fb2029;
+            justify-content: left;
+        }
+
+        @media (max-width: 768px) {
+            .spanOnline {
+                font-size: 2.5rem;
+            }
+            .spanDegree {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .spanOnline {
+                font-size: 2rem;
+            }
+            .spanDegree {
+                font-size: 2rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .buildbg {
+                background-image: url('assets/img/building_bg.png');
+                background-attachment: absolute;
+                /* background-size: auto !important; */
+                height: 100%;
+                background-size: 110%;
+                background-repeat: no-repeat;
+            }
+            .imgclass {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .bgimgrmv {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .buildbg {
+                background-image: url('assets/img/mob_bg.png');
+                background-attachment: absolute;
+                /* background-size: auto !important; */
+                height: 100%;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .imgclass {
+                width: 50%;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .bgtitle {
+                /* text-align: center; */
+                padding: 10px;
+                box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
+            }
+            .landwhole {
+                margin-top: -10% !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .bgtitle {
+                text-align: center;
+                padding: 5px;
+                box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
+            }
+            .landwhole {
+                margin-top: -15% !important;
+            }
+        }
+
+        .get-started-btn {
+            background: linear-gradient(to right, #fd1d1d, #fd1d1d, #ff50fb) !important;
+        }
+
+        /* .nav-link{
+    color: #ffff !important;
+  } */
+
+        .UnivName {
+            background: linear-gradient(to right, #fd1d1d, #ff50fb);
+        }
+
+        /* .tab ,.nav-link{
+    justify-content: none;
+  } */
+
+        .rankedit {
+            width: 40%;
+        }
+
+        .smttl {
+            font-size: 14px;
+            color: #575757;
+        }
+
+        .thrnkh {
+            font-size: 23px;
+            font-family: "Gotham-Bold";
+        }
+
+        .indhd {
+            font-weight: bold;
+            font-size: 29px;
+        }
+
+        /* h1{
+    font-size:110px;
+    background: linear-gradient(to right, #fd1d1d, #ff50fb);
+  } */
+
+        .container_shade {
+            box-shadow: 0px 0px 200px 15px #F4E0E8;
+        }
+
+        .benf2 {
+            font-size: 20px;
+            font-weight: 500;
+            color: black;
+        }
+
+        .mb-4 {
+            margin-bottom: 4% !important;
+        }
+
+        .mobalgn_img {
+            width: 48%;
+        }
+
+        .NAAC {
+            width: 55%;
+        }
+
+        @media (max-width:768px) {
+            .mobalgn_img {
+                text-align: center !important;
+                padding: 10px;
+                transform: scale(0.9) !important;
+                margin: auto;
+            }
+            .mobalgn_img {
+                width: 70%;
+            }
+            .NAAC {
+                width: 80%;
+                text-align: center !important;
+                padding: 10px;
+                transform: scale(0.9) !important;
+                margin: auto;
+            }
+            .mob_txt {
+                font-size: 36px !important;
+            }
+        }
+
+        .imgrnk {
+            width: 80%;
+        }
+
+        .degfont {
+            width: 100%;
+            color: #ffff !important;
+            /* font-size: 40px;  */
+            padding: 0% 0% 0% 2%;
+            font-size: 80%;
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            /* Tablet-specific CSS styles here */
+            .hdttl {
+                font-size: 55px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hdttl {
+                font-size: 50px !important;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .hdttl {
+                font-size: 5.15rem;
+                font-family: "Gotham-black";
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .col-md-6 {
+                flex: 0 0 auto;
+                width: 100%;
+            }
+            h3 {
+                font-size: 21px !important;
+            }
+            .img_hid {
+                display: block;
+            }
+            .UnivName {
+                font-size: 15px !important;
+            }
+            p {
+                font-size: 12px !important;
+            }
+            .navbar a {
+                font-size: 10px !important;
+            }
+            h4 {
+                font-size: 18px !important;
+            }
+        }
+
+        h4 {
+            font-family: "Gotham-Bold";
+            margin-bottom: 0%;
+            font-size: 1.4rem;
+        }
+
+        h3 {
+            font-family: Gotham-Bold;
+            margin-bottom: 0%;
+            font-size: 1.9rem;
+        }
+
+        .mt-4 {
+            margin-top: 2.0rem !important;
+        }
+
+        .col-xl-6 {
+            margin-bottom: 4.0rem;
+        }
+
+        .top5 {
+            padding-right: 8%;
+        }
+
+        #h2top {
+            background: linear-gradient(to right, #fd1d1d, #fd1d1d, #ff50fb) !important;
+            font-size: 46px !important;
+            margin: 9px 3%;
+        }
+
+        @media (max-width:768px) {
+            .top5 {
+                padding-right: 4%;
+                margin-bottom: 2% !important;
+            }
+            .col-md-7 {
+                width: 50% !important;
+            }
+            .text-white {}
+            #h2top {
+                margin: 5px 14% 10px 14% !important
+            }
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+
+        @media (max-width:768px) {
+            p {
+                font-size: 12px;
+            }
+        }
+
+        /* .img-fluid {
+    max-width: 80%;
+  } */
+
+        h2 {
+            font-family: "Montserrat";
+            font-size: 2.6rem;
+            font-weight: bolder;
+        }
+
+        /* /* @media (min-width:768px) {
+    h2{
+      font-size:80%;
+    }
+  }
+   @media (min-width: 1200px){
+    h2{
+    font-size:2.6rem;
+  } */
+
+        /* @media (min-width: 1200px) {
+    .deg_img {
+      max-width: 100%;
+    }
+  } */
+
+        .wText1 {
+            font-size: 15px;
+        }
+
+        .span {
+            vertical-align: top;
+            top: auto;
+        }
+
+        @media (max-width:768px) {
+            .bach_deg {
+                font-size: 18px !important;
+                text-align: center;
+            }
+            .mob_bul {
+                font-size: 10px;
+            }
+            .smallIcon {
+                max-width: 20px !important;
+            }
+            .algn_lt {
+                margin-top: 0px !important;
+            }
+        }
+
+        .bach_deg {
+            font-size: 29px;
+            padding: 0.25rem 1rem;
+            background: linear-gradient(to right, #fd1d1d, #ff50fb);
+            box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
+            font-weight: bold;
+            font-family: 'Gotham-Bold';
+            color: white;
+        }
+
+        /* Class for think rankings ad accreditations  */
+
+        .rank_txt {
+            font-family: Gotham-Bold;
+            font-size: 19px;
+            line-height: 1.2;
+            font-weight: bold;
+        }
+
+        /* Media query for tablet devices in portrait mode start here  */
+
+        /* @media (min-width: 768px) and (max-width: 1024px) { */
+
+        /* Tablet-specific CSS styles here */
+
+        /* } */
+
+        @media (max-width:767px) {
+            .rank_txt {
+                text-align: center;
+            }
+            .img_hid {
+                display: none;
+            }
+            .mt-50 {
+                margin-top: 50px;
+            }
+            .algn_fix {
+                margin-top: 10px;
+            }
+            .distxt {
+                font-size: 28px !important;
+            }
+        }
+
+        .shadow {
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3) !important;
+        }
+
+        .notifications-right {
+            position: fixed;
+            right: 25px;
+            bottom: 60px;
+            z-index: 10;
+            transition: .3s ease-in-out;
+            -webkit-transition: .3s ease-in-out;
+            transition-behavior: normal;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+            transition-property: all;
+            -moz-transition: .3s ease-in-out;
+            -ms-transition: .3s ease-in-out;
+            -o-transition: .3s ease-in-out;
+        }
+
+        .notifications-right button {
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 30px;
+            background: #e03a3c;
+            position: fixed;
+            right: 15px;
+            bottom: 65px;
+            z-index: 996;
+            border-style: unset;
+            color: #fff;
+            border-radius: 4px;
+            transition: all 0.4s;
+        }
+
+        .notificationsData.show {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .notificationsData {
+            width: 230px !important;
+        }
+
+        .notificationsData {
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+        }
+
+        .animated-text {
+            color: #ffffff;
+            opacity: 0;
+            position: relative;
+            animation: fadeInScale 2s ease-in-out forwards, moveHorizontally 5s ease-in-out infinite, colorChange 5s ease-in-out infinite;
+        }
+
+        .animated-subtext {
+            position: relative;
+        }
+
+        .letter {
+            display: inline-block;
+            opacity: 0;
+            animation: letterAnimation 4s ease-in-out infinite;
+        }
+
+        .letter:nth-child(1) {
+            animation-delay: 0.4s;
+        }
+
+        .letter:nth-child(2) {
+            animation-delay: 0.6s;
+        }
+
+        .letter:nth-child(3) {
+            animation-delay: 0.8s;
+        }
+
+        .letter:nth-child(4) {
+            animation-delay: 0.10s;
+        }
+
+        .apply-now::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #ff5733;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            animation: underlineAnimation 2s ease-in-out infinite;
+        }
+
+        .courselist ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .courselist ul li {
+            background-image: url("assets/img/arrow.png");
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: 0 50%;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+
+        .courselist ul li:hover {
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+
+        @keyframes underlineAnimation {
+            0% {
+                transform: scaleX(0);
+                transform-origin: bottom left;
+            }
+            50% {
+                transform: scaleX(1);
+                transform-origin: bottom center;
+            }
+            100% {
+                transform: scaleX(0);
+                transform-origin: bottom right;
+            }
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes moveHorizontally {
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(20px);
+            }
+        }
+
+        @keyframes colorChange {
+            0%,
+            100% {
+                color: #ffffff;
+            }
+            50% {
+                color: #ff5733;
+            }
+        }
+
+        @keyframes letterAnimation {
+            0%,
+            100% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /*-----------*/
+
+        /*.area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100vh;
+    
+   
+}*/
+
+        .circles {
+            position: absolute;
+            top: 0;
+            left: 45%;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .circles li {
+            position: absolute;
+            display: block;
+            list-style: none;
+            width: 20px;
+            height: 20px;
+            background: rgba(255, 80, 80, .7);
+            animation: animate 25s linear infinite;
+            bottom: -150px;
+        }
+
+        .circles li:nth-child(1) {
+            left: 25%;
+            width: 80px;
+            height: 80px;
+            animation-delay: 0s;
+        }
+
+        .circles li:nth-child(2) {
+            left: 10%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 2s;
+            animation-duration: 12s;
+        }
+
+        .circles li:nth-child(3) {
+            left: 70%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 4s;
+        }
+
+        .circles li:nth-child(4) {
+            left: 40%;
+            width: 60px;
+            height: 60px;
+            animation-delay: 0s;
+            animation-duration: 18s;
+        }
+
+        .circles li:nth-child(5) {
+            left: 65%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 0s;
+        }
+
+        .circles li:nth-child(6) {
+            left: 75%;
+            width: 110px;
+            height: 110px;
+            animation-delay: 3s;
+        }
+
+        .circles li:nth-child(7) {
+            left: 35%;
+            width: 150px;
+            height: 150px;
+            animation-delay: 7s;
+        }
+
+        .circles li:nth-child(8) {
+            left: 50%;
+            width: 25px;
+            height: 25px;
+            animation-delay: 15s;
+            animation-duration: 45s;
+        }
+
+        .circles li:nth-child(9) {
+            left: 20%;
+            width: 15px;
+            height: 15px;
+            animation-delay: 2s;
+            animation-duration: 35s;
+        }
+
+        .circles li:nth-child(10) {
+            left: 85%;
+            width: 150px;
+            height: 150px;
+            animation-delay: 0s;
+            animation-duration: 11s;
+        }
+
+        @keyframes animate {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+                border-radius: 0;
+            }
+            100% {
+                transform: translateY(-1000px) rotate(720deg);
+                opacity: 0;
+                border-radius: 50%;
+            }
+        }
+
+        .title {
+            font-size: 40px;
+            letter-spacing: -1px;
+            line-height: 1;
+            text-align: center;
+            margin: 0;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- End Hero -->
+
+    <section class="d-flex align-items-center p-0 mt-0">
+        <!--p-0-->
+        <div class="buildbg container-fluid" style="width: 100%; height: 80vh;">
+            <div class="container aos-init aos-animate " style="display: flex; flex-direction: column; justify-content: center; align-items: center; width:100%; height: 100%;" data-aos="zoom-out" data-aos-delay="100">
+                    <div class="col-md-5 mt-4" style="display: flex; flex-direction: column; justify-content: center; align-items: center; width:100%; height: 100%; gap: 30px">
+                            <div class="hcolor spanOnline hdttl mt-0 animated-text" style="line-height: 0.95;">
+                                ABOUT US
+                            </div>
+                            <div class="mt-3 restext">
+                                <p style="text-align: center; font-size: 18px; font-weight:bold;">We collaborate with colleges to enhance student employability, organize effective placement drives, and offer continuous support to ensure successful career transitions for students.</p>
+
+                                
+                                <style>
+                                    /* Default styling for all devices */
+
+                                    #h2top {
+                                        text-align: left;
+                                        /* Default alignment for larger screens */
+                                        margin: 8px auto;
+                                        text-align: center;
+                                    }
+
+                                    /* For mobile devices */
+
+                                    @media screen and (max-width: 768px) {
+                                        #h2top {
+                                            text-align: center;
+                                            /* Center text on mobile */
+                                            margin: 0 auto;
+                                            /* Center container horizontally */
+                                            line-height: 1.5;
+                                            /* Adjust line height for better readability */
+                                        }
+                                        #h2top .top2 {
+                                            font-size: 28px;
+                                            /* Reduce font size for smaller screens */
+                                        }
+                                        #h2top span {
+                                            margin-top: 0;
+                                            /* Remove excess top margins */
+                                        }
+                                    }
+                                </style>
+                            </div>
+                            <a style="padding:15x !important; color: white;" href="#" class="get-started-btn scrollto mobnav mt-3"><span class="mobtext">HOME - ABOUT</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .custom-card-height {
+            height: 525px;
+        }
+
+        .jeeto {
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 15px;
+            height: 100%;
+            transform: scale(0.96);
+        }
+    </style>
+
+<section id="thLearning" class="thLearning">
+    <div class="container col-md-10 m-auto" data-aos="zoom-out" data-aos-delay="100">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="learningContent" style="background-color: transparent !important;">
+                    <div class="pageTitle hcolor odfont col-md-6">
+                        <h2>ABOUT US</h2>
+                    </div>
+
+                    <div class="mt-2">
+                        <h4 class="font-weight-bold"> Dedicated to Student Success and Career Development</h4>
+
+                        <div class="mt-4" style="width: 80%;">
+                            <p> VibrantMinds partners with colleges to enhance student employability through comprehensive placement services, industry connections, and career support.
+                                Our mission is to bridge the gap between academia and the professional world, ensuring a successful career launch for every student.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <ul class="learList" style="font-weight: bold;">
+                            <li> <img class="smallIcon" src="assets/img/suicon6.png"> 
+                                25K+ Student</li>
+                            <li> <img class="smallIcon" src="assets/img/suicon5.png">
+                                40k+ Students Placed</li>
+                            <li> <img class="smallIcon" src="assets/img/suicon7.png">50+ Active Schools</li>
+                        </ul>
+                    </div>
+                    <a style="width: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding:18px !important; color: white" href="#" class="get-started-btn scrollto mobnav mt-4"><span class="mobtext">About us</span></a>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- End Clients Section -->
+
+    </div>
+</section>
+
+
+<section id="tabs" class="tabs">
+    <div class="container col-md-10" data-aos="fade-up">
+        <div style="display:flex; justify-content: center; flex-direction: column; align-items: center;" class="tab-pane active show" id="tab-1">
+            <div class="row mt-4" style="margin: auto;">
+                <div class="col-md-4 mb-2" style="width: 300px; height: 230px; margin: auto;">
+                    <div style="box-shadow: 0 0  20px #ddd;" class="card-uni">
+                        <a href="#">
+                            <div class="position-relative" style="padding: 7px;">
+                                <div class="cardsHeght">
+                                    <div class="CardSpace p-3">
+                                        <h3 style="text-align: center;" class="postTitle">Student Empowerment</h3>
+                                        <div class="mt-2 ">
+                                            <p style="text-align: center;">Dedicated to enhancing student employability through tailored placement services and continuous career support.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2" style="width: 300px; height: 230px; margin: auto;">
+                    <div style="box-shadow: 0 0  20px #ddd;" class="card-uni">
+                        <a href="#">
+                            <div class="position-relative" style="padding: 7px;">
+                                <div class="cardsHeght">
+                                    <div class="CardSpace p-3">
+                                        <h3 style="text-align: center;" class="postTitle">
+                                            Industry Connections</h3>
+                                        <div class="mt-2 ">
+                                            <p style="text-align: center;">Partnering with top-tier employers to provide students with exceptional job opportunities and career growth.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2" style="width: 300px; height: 230px; margin: auto;">
+                    <div style="box-shadow: 0 0  20px #ddd;" class="card-uni">
+                        <a href="#">
+                            <div class="position-relative" style="padding: 7px;">
+                                <div class="cardsHeght">
+                                    <div class="CardSpace p-3">
+                                        <h3 style="text-align: center;" class="postTitle">Comprehensive Services</h3>
+                                        <div class="mt-2 ">
+                                            <p style="text-align: center;">Offering end-to-end career support, including resume building, interview preparation, and career counseling.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2" style="width: 300px; height: 230px; margin: auto;">
+                    <div style="box-shadow: 0 0  20px #ddd;" class="card-uni">
+                        <a href="#">
+                            <div class="position-relative" style="padding: 7px;">
+                                <div class="cardsHeght">
+                                    <div class="CardSpace p-3">
+                                        <h3 style="text-align: center;" class="postTitle">
+                                            Proven Success</h3>
+                                        <div class="mt-2 ">
+                                            <p style="text-align: center;">Thousands of students successfully placed in their desired careers through our effective placement drives.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        
+</section>
+
+<section id="tabs" class="tabs" style="margin-top: 60px;">
+    <div class="container col-md-10 m-auto" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-12 m-auto">
+                <div class="bach_deg text-center">
+                    <!-- <a class="" data-bs-toggle="tab" data-bs-target="#tab-2"> -->
+                        OUR STUDENTS
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div style="text-align:center "><span class="hcolor" style="font-size: 20px; ">Success Testimonials</div>
+    </div>
+    <br>
+    <br>
+
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around;">
+
+        <div class="col-md-4 mb-2" style="width: 300px; height: 270px; margin: auto;">
+            <div style="box-shadow: 0 0  20px #ddd;" class="card-uni">
+                <a href="#">
+                    <div class="position-relative" style="padding: 7px;">
+                        <div class="cardsHeght">
+                            <div class="imageCard" style="display: flex; flex-direction: column; justify-content: center; align-items: center;"> <img style="width: 30%;" class="img-fluid" src="./assets/img/6135.jpg" /></div>
+                            <div class="CardSpace p-3">
+                                <h3 class="postTitle">Rohan Joshi</h3>
+                                <div class="mt-2 ">
+                                    <p>"The team at VibrantMinds helped me find the perfect job. Their support was invaluable."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 mb-2" style="width: 300px; height: 270px; margin: auto;">
+            <div style="box-shadow: 0 0  20px #ddd;" class="card-uni">
+                <a href="#">
+                    <div class="position-relative" style="padding: 7px;">
+                        <div class="cardsHeght">
+                            <div class="imageCard" style="display: flex; flex-direction: column; justify-content: center; align-items: center;"> <img style="width: 30%;" class="img-fluid" src="./assets/img/34603.jpg" /></div>
+                            <div class="CardSpace p-3">
+                                <h3 class="postTitle">Suhani Landge</h3>
+                                <div class="mt-2 ">
+                                    <p>"Excellent service and great opportunities. I highly recommend VibrantMinds."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 mb-2" style="width: 300px; height: 270px; margin: auto;">
+            <div style="box-shadow: 0 0  20px #ddd;" class="card-uni">
+                <a href="#">
+                    <div class="position-relative" style="padding: 7px;">
+                        <div class="cardsHeght">
+                            <div class="imageCard" style="display: flex; flex-direction: column; justify-content: center; align-items: center;"> <img style="width: 30%;" class="img-fluid" src="./assets/img/13860.jpg" /></div>
+                            <div class="CardSpace p-3">
+                                <h3 class="postTitle">Vijay Bandichode</h3>
+                                <div class="mt-2 ">
+                                    <p>"Professional and supportive throughout the recruitment process. Thank you, VibrantMinds."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section id="tabs" class="tabs" style="margin-top: 60px;">
+    <div class="container col-md-10 m-auto" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-12 m-auto">
+                <div class="bach_deg text-center">
+                    <!-- <a class="" data-bs-toggle="tab" data-bs-target="#tab-2"> -->
+                        GET IN TOUCH
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div style="text-align:center "><span class="hcolor" style="font-size: 20px; ">Contact Us Now</div>
+    </div>
+    <div class="container" style="width: 100%; display: flex; flex-direction: column; gap: 15px; justify-content: center; align-items: center; margin-top: 20px;">
+        <input type="text" name="name" placeholder="Name" style="width: 80%; border-radius: 5px; padding: 10px">
+        <input type="email" name="email" placeholder="Email" style="width: 80%; border-radius: 5px; padding: 10px">
+        <input type="textarea" name="message" placeholder="Message" style="width: 80%; border-radius: 5px; padding: 10px">
+        <a style="width: 80%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding:10px !important; color: white" href="#" class="get-started-btn scrollto mobnav mt-4"><span class="mobtext">Send</span></a>
+    </div>
+</section>
+
+<footer id="footer">
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+
+                <div class="col-lg-4 col-md-6 footer-contact" style="display: flex; flex-direction:  column; gap: 10px;">
+                    <h3> <img class="img-fluid" src="assets/img/logo.png" width="300px" alt=""> </h3>
+                    <p class="text-white">
+                        We bridge the gap between education and industry, empowering students with the skills and opportunities they need for success
+                    </p>
+
+                    <div class="social-links text-center text-md-start mt-3 "> <a href="#" class="twitter"><i
+                                class="bx bxl-twitter"></i></a> <a href="#" class="facebook"><i
+                                class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i
+                                class="bx bxl-instagram"></i></a> <a href="#" class="linkedin"><i
+                                class="bx bxl-linkedin"></i></a></div>
+                    <p style="color:white">Copyright © 2024 VibrantMinds Technologies | Webdesign by Webworkwala.com</p>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a class="nav-link scrollto active" target="_blank"
+                                href="https://shooliniuniversity.com/">Home</a></li>
+                        <li><a class="nav-link scrollto" href="#tabs">About us</a></li>
+                        <li><a class="nav-link scrollto" href="#suFuture">Placement Drives</a></li>
+                        <li><a class="nav-link scrollto " href="#degProgram">Placement Services</a></li>
+                        <li><a class="nav-link scrollto " href="#degProgram">Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+<script>
+    document.getElementById("lead_form").addEventListener("submit", function(evt) {
+        var email = document.getElementById("email");
+        var name = document.getElementById("name");
+        var check = document.getElementById("check");
+        var phone = document.getElementById("phone");
+        var course = document.getElementById("course");
+        var mailformat = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+        var nameformat = /^(?:((([^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]'’,\-.\s])){1,}(['’,\-\.]){0,1}){2,}(([^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]'’,\-. ]))*(([ ]+){0,1}(((([^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]'’,\-\.\s])){1,})(['’\-,\.]){0,1}){2,}((([^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]'’,\-\.\s])){2,})?)*)$/;
+        var phoneformat = /[0-9]+/;
+        var e = document.getElementById("course");
+        var optionSelIndex = e.options[e.selectedIndex].value;
+        var optionSelectedText = e.options[e.selectedIndex].text;
+        if (email.value.match(mailformat)) {
+            document.getElementById("email1").innerHTML = "";
+            var a1 = 0;
+        } else {
+            document.getElementById("email1").innerHTML = "Please Enter Valid Email Address"; //The pop up alert for an invalid email address
+            var a1 = 1;
+        }
+        if (name.value.match(nameformat)) {
+            document.getElementById("name1").innerHTML = ""; //The pop up alert for a valid email address
+            var a2 = 0;
+        } else {
+            document.getElementById("name1").innerHTML = "Please Enter a valid Name"; //The pop up alert for an invalid email address
+            var a2 = 1;
+        }
+        if (phone.value.match(phoneformat)) {
+            document.getElementById("phone1").innerHTML = ""; //The pop up alert for a valid email addr
+            var a3 = 0;
+        } else {
+            document.getElementById("phone1").innerHTML = "Please Enter a valid Phone"; //The pop up alert for an invalid email address
+            var a3 = 1;
+        }
+
+        if (optionSelIndex == 0) {
+            document.getElementById("course1").innerHTML = "Please select a Course";
+            var a4 = 1;
+        } else {
+            document.getElementById("course1").innerHTML = "";
+            var a4 = 0;
+        }
+        if (document.getElementById('check').checked == true) {
+            document.getElementById("check1").innerHTML = "";
+            var a5 = 0;
+        } else {
+            document.getElementById("check1").innerHTML = "Please Check the Agreement Checkbox to proceed further!";
+            var a5 = 1;
+        }
+        if (a1 == 0 && a2 == 0 && a3 == 0 && a4 == 0 && a5 == 0) {} else {
+            return false;
+        }
+        document.getElementById('oloader').style.display = "";
+        document.getElementById('output').style.display = "none";
+        document.getElementById('msg').style.display = "none";
+        $.ajax({
+            url: "ajax_lead.php",
+            type: "POST",
+            // data:  $(this).text(),
+            data: new FormData(this),
+            contentType: false,
+            cache: true,
+            processData: false,
+            success: function(data) {
+                $("#output").html(data);
+            },
+            error: function() {}
+        });
+    });
+</script>
+<!-- lead code end -->
+
+<script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+        preferredCountries: ["in"],
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+</script>
+
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active1");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+    // Open the first collapsible by default
+</script>
+<script>
+    window.onscroll = function() {
+        myFunction()
+    };
+
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("fixed-top");
+        } else {
+            header.classList.remove("fixed-top");
+        }
+    }
+</script>
+<script src="https://in8cdn.npfs.co/js/widget/npfwpopup.js"></script>
+<script>
+    let npfW98994d50dad1bda5a240a9a9b9bf73d3 = new NpfWidgetsInit({
+        "widgetId": "98994d50dad1bda5a240a9a9b9bf73d3",
+        "baseurl": "widgets.in8.nopaperforms.com",
+        "formTitle": "Enquiry Form",
+        "titleColor": "#FF0033",
+        "backgroundColor": "#ddd",
+        "iframeHeight": "500px",
+        "buttonbgColor": "#4c79dc",
+        "buttonTextColor": "#FFF",
+    });
+</script>
+</html>
